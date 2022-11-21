@@ -15,7 +15,7 @@ import lombok.Data;
 public class Course {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO) //banco de dados gera um id
     @JsonProperty("_id")
     private Long id;
 
